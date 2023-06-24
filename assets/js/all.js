@@ -43,7 +43,7 @@
             arabicInputErr.textContent = "";
             romanInput.value = toRoman(arabicInputVal);
           } else {
-            arabicInputErr.textContent = "— < 4 million only."
+            arabicInputErr.textContent = "Under 4 million only."
           }
         }
       }
